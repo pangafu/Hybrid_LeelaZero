@@ -38,10 +38,14 @@ Please open config.py, modify parameters:
 
 
     LEELAZERO_CMD   :  LeelaZero Command (no blank in dir)
+ 
     GOGUI_TWOGTP_CMD  :  GOGUI gogui-twogtp  Command (no blank in dir)
-    MATCH_PER_GAMES  :  Match when generated N game in child
-    MATCH_PLAYOUT  :  Match Playout to test which weight is strong
-    MATCH_TIMES  :  Math times Count to test which weight is strong,
+    
+    MATCH_PER_GAMES  :  Match when generated N game in child
+    
+    MATCH_PLAYOUT  :  Match Playout to test which weight is strong
+  
+    MATCH_TIMES  :  Math times Count to test which weight is strong,
 
     HYBRID  :  Hybrid Parameter
   
