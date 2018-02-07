@@ -42,9 +42,11 @@ Please open config.py, modify parameters:
     MATCH_PER_GAMES  :  Match when generated N game in child
     MATCH_PLAYOUT  :  Match Playout to test which weight is strong
     MATCH_TIMES  :  Math times Count to test which weight is strong, 
+
+
     HYBRID  :  Hybrid Parameter
-        HybridParameter: Max 5 weight to Hybrid , if wanner more, please modify hybrid.py->gen_children
-        RandomInherit: percent to random inherited from one parent, for Mutation porpose
+         HybridParameter: Max 5 weight to Hybrid , if wanner more, please modify hybrid.py->gen_children
+         RandomInherit: percent to random inherited from one parent, for Mutation porpose
   
 It's very easy to understand, if not know , please see the program commet.
 
