@@ -54,6 +54,8 @@ GoGUI  (https://sourceforge.net/projects/gogui/)
      python main.py
 
 运行的过程大概如下
+
+
     a. 首先根据父权重和混血参数，生成混血子权重
     b. 当生成的混血子权重数量 > MATCH_PER_GAMES，开始一轮比赛，找出这批子权重中最强的权重
     c. 将最强的子权重移动到 best\ 目录中
