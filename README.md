@@ -51,15 +51,15 @@ It's very easy to understand, if not know , please see the program commet.
 # 2.4 run
 In windows or linux, use 
 
-   python main.py
+     python main.py
 
 It will do something like
 
-    a. Generate hybrid child with Hybrid Parameter and parent weights
-    b. Test to find the best child when generated child count > MATCH_PER_GAMES
-    c. Move the best child into best\ direction
-    d. Repeat STEP b and c to generate 1 best child in MATCH_PER_GAMES games
-    e. At last, find the best weight in best\ direction
+     a. Generate hybrid child with Hybrid Parameter and parent weights
+     b. Test to find the best child when generated child count > MATCH_PER_GAMES
+     c. Move the best child into best\ direction
+     d. Repeat STEP b and c to generate 1 best child in MATCH_PER_GAMES games
+     e. At last, find the best weight in best\ direction
     
 
 All the result you can see from the console output and matchlog\match.log, just like below:
