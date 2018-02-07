@@ -2,7 +2,7 @@
 # 1. Hybrid_LeelaZero
 Idea come from the leela zero issue #814 https://github.com/gcp/leela-zero/issues/814
 
-This program will auto hybrid 2 or more weight file by HybridParameter define in HybridParameter, and auto test to find the strongest weights
+This program will auto hybrid 2 or more weight file by HybridParameter, and auto test to find the strongest hybrid weight
 
 # 2. How to run
 # 2.1 requirment
