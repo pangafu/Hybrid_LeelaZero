@@ -49,7 +49,9 @@ GoGUI  (https://sourceforge.net/projects/gogui/)
 
 # 2.4 运行
 在windows或者linux下，请用以下方法进行运行
-    python main.py
+ 
+ 
+     python main.py
 
 运行的过程大概如下
     a. 首先根据父权重和混血参数，生成混血子权重
