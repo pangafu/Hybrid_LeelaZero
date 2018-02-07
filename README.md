@@ -55,7 +55,7 @@ In windows or linux, use
 
 It will do something like
 
-      a. Generate hybrid child with Hybrid Parameter and parent weights
+     a. Generate hybrid child with Hybrid Parameter and parent weights
      
      b. Test to find the best child when generated child count > MATCH_PER_GAMES
   
