@@ -57,7 +57,7 @@ It's very easy to understand, if not know , please see the program commet.
 # 2.4 run
 In windows or linux, use 
 
-     python main.py
+      python main.py
 
 It will do something like
 
