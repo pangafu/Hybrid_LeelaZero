@@ -109,7 +109,7 @@ def findbest(child_dir):
     os.chdir(DIR_WORK)
     
     # match child weight
-    if (len(child_weights)>1):
+    if (len(child_weights)>=1):
         #find best weight
         best_weight = ""
         for child_weight in child_weights:
@@ -136,9 +136,6 @@ def findbest(child_dir):
         write_log("----------------------------------------------------------------")
         write_log(" ")
         return best_weight
-    elif len(child_weights) == 1:
-        print("Only One Child! ")
-        return child_weights[0]
     else:
         print("Child weight's count < 1, Exit!")
         return ""
@@ -162,9 +159,6 @@ def findbestbest():
     write_log("  ")
     write_log("  ")
     write_log("----------------------------------------------------------------")
-    write_log("-- GENERATE BY Hybrid_LeelaZero                --")
-    write_log("-- https://github.com/pangafu/Hybrid_LeelaZero --")
-    write_log("-- MATCH PLAYOUT {0}, MATCH TIMES {1}            --".format(MATCH_PLAYOUT, MATCH_TIMES))
     write_log("-- START TO FIND THE BEST OF BEST              --")
     
     best_best = findbest(DIR_BEST)
