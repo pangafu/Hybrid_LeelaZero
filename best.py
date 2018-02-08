@@ -94,6 +94,8 @@ def child_match_dir(child_dir, child_dir_weight, match_dir):
 def findbest(child_dir):
     write_log(" ")
     write_log("----------------------------------------------------------------")
+    write_log("-- GENERATE BY Hybrid_LeelaZero, https://github.com/pangafu/Hybrid_LeelaZero --")
+    write_log("-- MATCH PLAYOUT {0}, MATCH TIMES {1} --".format(MATCH_PLAYOUT, MATCH_TIMES))
     write_log("-- START ROUND TO FIND THE BEST OF CHILD --")
     #get child
     child_weights = get_all_weight(child_dir)
@@ -159,6 +161,8 @@ def findbestbest():
     write_log("  ")
     write_log("  ")
     write_log("----------------------------------------------------------------")
+    write_log("-- GENERATE BY Hybrid_LeelaZero, https://github.com/pangafu/Hybrid_LeelaZero --")
+    write_log("-- MATCH PLAYOUT {0}, MATCH TIMES {1} --".format(MATCH_PLAYOUT, MATCH_TIMES))
     write_log("-- START TO FIND THE BEST OF BEST --")
     
     best_best = findbest(DIR_BEST)
