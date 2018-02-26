@@ -146,6 +146,12 @@ def gen_children(all_parent_weight, parameter, randominherit):
     if len(hbparam) == 5:
         des_parent_weights = itertools.product(all_parent_weight, all_parent_weight, all_parent_weight, all_parent_weight, all_parent_weight)
 
+    if len(hbparam) == 6:
+        des_parent_weights = itertools.product(all_parent_weight, all_parent_weight, all_parent_weight, all_parent_weight, all_parent_weight, all_parent_weight)
+
+    if len(hbparam) == 7:
+        des_parent_weights = itertools.product(all_parent_weight, all_parent_weight, all_parent_weight, all_parent_weight, all_parent_weight, all_parent_weight, all_parent_weight)
+
     had_generated_pair = []
     for weights_pair in des_parent_weights:
         #check if weight need generate

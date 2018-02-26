@@ -17,10 +17,10 @@ GOGUI_TWOGTP_CMD = "/home/wukong/gogui/bin/gogui-twogtp"
 MATCH_PER_GAMES = 100
 
 # - match Playout to test which weight is strong -
-MATCH_PLAYOUT = 80
+MATCH_PLAYOUT = 200
 
 # - math times Count to test which weight is strong -
-MATCH_TIMES = 20
+MATCH_TIMES = 40
 
 
 
@@ -37,13 +37,17 @@ DIR_BEST = os.path.join(DIR_RUN, "best")
 FILE_MATCHLOG  = os.path.join(DIR_RUN, "matchlog", "match.log")
 
 # - Hybrid Parameter -
-#HybridParameter: Max 5 weight to Hybrid , if wanner more, please modify hybrid.py->gen_children
+#HybridParameter: Max 7 weight to Hybrid , if wanner more, please modify hybrid.py->gen_children
 #RandomInherit: percent to random inherited from one parent, for Mutation porpose
-"""
-HYBRID = [{"HybridParameter":"1:1", "RandomInherit":"0"},
-                 {"HybridParameter":"1:1:1", "RandomInherit":"0"}]
-"""
 
+HYBRID = [{"HybridParameter":"1:1:1:1:1", "RandomInherit":"0"},
+                 {"HybridParameter":"1:0.8:0.8:0.8:0.8", "RandomInherit":"0"},
+                 {"HybridParameter":"1:0.5:0.5:0.5:0.5", "RandomInherit":"0"},
+                 {"HybridParameter":"1:1:1:1:1:1", "RandomInherit":"0"},
+                 {"HybridParameter":"1:0.8:0.8:0.8:0.8:0.8", "RandomInherit":"0"},
+                 {"HybridParameter":"1:0.5:0.5:0.5:0.5:0.5", "RandomInherit":"0"}]
+
+"""
 HYBRID = [{"HybridParameter":"1:1", "RandomInherit":"0"},
                  {"HybridParameter":"1:0.8", "RandomInherit":"0"},
                  {"HybridParameter":"1:0.5", "RandomInherit":"0"},
@@ -62,3 +66,4 @@ HYBRID = [{"HybridParameter":"1:1", "RandomInherit":"0"},
                  {"HybridParameter":"1:0.2:0.2:0.2", "RandomInherit":"0"},
                  {"HybridParameter":"1:1:1:1:1", "RandomInherit":"0"},
                  {"HybridParameter":"1:0.8:0.6:0.4:0.2", "RandomInherit":"0"}]
+"""
