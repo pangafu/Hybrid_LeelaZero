@@ -9,7 +9,7 @@ Python 3.5 or higher  (https://www.python.org/)
 
 Leela Zero  (https://github.com/gcp/leela-zero)
 
-GoGUI  (https://sourceforge.net/projects/gogui/)
+GoGUI  (https://sourceforge.net/projects/gogui/) 安装文件 (https://sourceforge.net/projects/gogui/files/gogui/1.4.9/)
 
 # 2.2 下载一代权重文件
 从以下网址下载你喜欢的第一代权重文件 
