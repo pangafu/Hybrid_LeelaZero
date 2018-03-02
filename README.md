@@ -10,7 +10,7 @@ Python 3.5 or higher  (https://www.python.org/)
 
 Leela Zero  (https://github.com/gcp/leela-zero)
 
-GoGUI  (https://sourceforge.net/projects/gogui/)
+GoGUI  (https://sourceforge.net/projects/gogui/) -> Install file is here (https://sourceforge.net/projects/gogui/files/gogui/1.4.9/)
 
 # 2.2 Download the Parent weights
 Download leela zero weights you loved from 
