@@ -48,7 +48,7 @@ Please open config.py, modify parameters:
      
      HYBRID  :  Hybrid Parameter
          
-         HybridParameter: Max 5 weight to Hybrid , if wanner more, please modify hybrid.py->gen_children
+         HybridParameter: Max 9 weight to Hybrid , if wanner more, please modify hybrid.py->gen_children
          
          RandomInherit: percent to random inherited from one parent, for Mutation porpose
   
