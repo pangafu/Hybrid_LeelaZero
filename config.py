@@ -25,7 +25,7 @@ MATCH_TIMES = 40
 
 
 # - match command-
-MATCH_CMD = '{0} -black "{1} -g -p {2} --noponder -t 1 -q -d -r 1 -w {3}"  -white "{1} -g -p {2} --noponder -t 1 -q -d -r 1 -w {4}" -games {5} -sgffile leelazero -size 19 -komi 7.5 -alternate -auto'
+MATCH_CMD = '{0} -black "{1} -g -m 30 -p {2} --noponder -t 1 -q -d -r 1 -w {3}"  -white "{1} -g -m 30 -p {2} --noponder -t 1 -q -d -r 1 -w {4}" -games {5} -sgffile leelazero -size 19 -komi 7.5 -alternate -auto'
 MATCH_ANALYZE_CMD = "{0} -analyze leelazero.dat"
 
 # - Dir list -
