@@ -42,7 +42,7 @@ GoGUI  (https://sourceforge.net/projects/gogui/) 安装文件 (https://sourcefor
     MATCH_PLAYOUT  :  比赛参数Playout，建议至少>60，越大越好
     MATCH_TIMES  :  每两个权重的比赛次数，建议至少>20次，越大越好
     HYBRID  :  混血参数
-        HybridParameter: 目前最多支持5个权重同时混血，如果你需要支持更多，请修改hybrid.py->gen_children
+        HybridParameter: 目前最多支持9个权重同时混血，如果你需要支持更多，请修改hybrid.py->gen_children
         RandomInherit: (0-1)随机继承参数，如果开启这个参数，混血权重的某个网络参数将以一定比例从父权重中继承，主要用于 突变目的
   
 如果还是不太明白的话，请参考程序注释。
